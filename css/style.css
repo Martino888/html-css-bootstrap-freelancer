@@ -11,6 +11,12 @@
     width: 100px;
     height: 100px;
 }
+
+.square{
+    height: 150px;
+    background-color: brown;
+
+}
 .bk-nav{
     background-color: rgb(61, 61, 80);
 }
