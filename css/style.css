@@ -1,8 +1,16 @@
 .bold{
-    font-weight: 900;
-    color: white;
+    font-weight: bold;
 }
 
-.w{
-     background-color: blue;
+.green{
+    background-color:rgb(85, 223, 177) ;
+}
+
+.border{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+nav{
+    background-color: rgb(61, 61, 80);
 }
