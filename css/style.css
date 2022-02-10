@@ -6,6 +6,10 @@
     background-color:rgb(85, 223, 177) ;
 }
 
+.green2{
+    background-color:rgb(85, 223, 177) ;
+}
+
 .border{
     border-radius: 100%;
     width: 100px;
@@ -15,11 +19,19 @@
 .square{
     height: 150px;
     background-color: brown;
-
 }
 .bk-nav{
     background-color: rgb(61, 61, 80);
 }
+
+.footer{
+    background-color: rgb(62, 62, 95);
+}
+
+.button{
+    border: 1px solid white;
+}
+
 
 .white{
     color: white;
