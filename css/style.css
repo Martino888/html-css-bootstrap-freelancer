@@ -11,6 +11,10 @@
     width: 100px;
     height: 100px;
 }
-nav{
+.bk-nav{
     background-color: rgb(61, 61, 80);
+}
+
+.white{
+    color: white;
 }
