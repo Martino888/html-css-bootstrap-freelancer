@@ -10,22 +10,41 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top">
+    <header class="bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark ">
             <div class="container-fluid">
-              <a class="navbar-brand bold" href="#">START BOOTSTRAP</a>
-              <button class="navbar-toggler d-none  d-sm-block d-md-none d-lg-none  " type="button" >
-                <span class="navbar-toggler-icon "></span>
-              </button>
+                <a class="navbar-brand text-white bold" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-center"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" aria-current="page"  href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active bold" aria-current="page" href="#">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <div class="container-fluid green">
-            <div class="row">
-                <div class="col text-center mt-5">
-                    <img class="border mt-5" src="https://picsum.photos/200/300" alt="">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <img class="w-100 mt-3" src="img/avatar.svg" alt="">
                 </div>
             </div>
             <div class="container-fluid">
@@ -37,14 +56,16 @@
             </div>
             <div class="container-fluid ">
                 <div class="row">
-                    <div class="col text-center">
-                        <span class="white">-------STAR------</span>
+                    <div class="col-5 line_x"></div>
+                    <div class="col-2 text-center">
+                        <i class="fa-solid fa-star white"></i>
                     </div>
+                    <div class=" col-5 line_x"></div>
                 </div>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-sm-10 offset-sm-1 text-center">
-                            <span class="white">grafic art-blala- blalala </span>
+                            <span class="white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSRATOR </span>
                         </div>
                     </div>
                 </div>
@@ -135,22 +156,23 @@
                 <div class=" text-center col-sm-12 mb-3">
                     <span> -------STAR------ </span>
                 </div>
-                <div class="row mx5" >
+                <div class="row mx5">
                     <div class=" text-center col-sm-12  ">
                         <p class="m-5">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             <br> Quo, magnam soluta earum
-                            atque,<br> voluptatem nostrum nihil consequuntur dicta non sunt modi dolor. Eligendi <br> ut aspernatur
+                            atque,<br> voluptatem nostrum nihil consequuntur dicta non sunt modi dolor. Eligendi <br> ut
+                            aspernatur
                             repellat quaerat repudiandae veniam commodi
                         </p>
                     </div>
                 </div>
-                
+
     </main>
-            
-            <!--footer-->
+
+    <!--footer-->
     <footer>
-        <div class="container-fluid footer">
+        <div class="container-fluid footer ">
             <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3">
                 <div class="white text-center col ">
                     <p class="tex-center">lorem ipsum ecc ecc</p>
@@ -164,14 +186,14 @@
             </div>
         </div>
         <!--nav-bottom-->
-        <div class="conteiner-fluid bk-nav">
+        <div class="container-fluid bk-nav">
             <div class="row">
                 <div class="text-center col-12 mb-3 mt-3">
                     <span class="white">lorem ipsum</span>
                 </div>
             </div>
         </div>
-    </footer>    
-    </body>
-    
+    </footer>
+</body>
+
 </html>
