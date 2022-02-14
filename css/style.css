@@ -1,57 +1,127 @@
-.bold{
+a {
+    text-decoration: none;
+}
+
+.bold {
     font-weight: bold;
 }
 
-.green{
-    background-color:rgb(85, 223, 177) ;
+.green {
+    background-color: rgb(85, 223, 177);
 }
 
-.green2{
-    background-color:rgb(85, 223, 177) ;
-}
-
-.border{
-    border-radius: 100%;
-    width: 300px;
-    height: 300px;
-}
-
-.square{
-    height: 150px;
-    background-color: brown;
-}
-.bk-nav{
-    background-color: rgb(61, 61, 80);
-}
-
-.footer{
-    background-color: rgb(62, 62, 95);
-}
-
-
-
-.white{
+.white {
     color: white;
 }
 
+.link-color {
+    color: rgb(85, 223, 177);
+}
 
-/*le classi sopra da rivedere tutte  */
+.border-button {
+    border-color: white;
+}
 
+.fs-7 {
+    font-size: xx-small;
+}
 
-.line_x{
+.line_x {
     border: 1px solid white;
     background-color: white;
     border-radius: 1em;
     height: 3px;
-    width: 60px;
-    margin-bottom: 5px;
+    width: 110px;
+    margin-bottom: 6px;
 }
 
-.line_xb{
+.line_xb {
     border: 1px solid black;
     background-color: black;
     border-radius: 1em;
     height: 3px;
-    width: 60px;
-    margin-bottom: 5px;
+    width: 110px;
+    margin-bottom: 6px;
+}
+
+.container-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.send_1 {
+    background-color: rgb(85, 223, 177);
+    border-radius: 10%;
+}
+
+.f1 {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.g1 {
+    padding: 10px;
+    padding-left: 11px;
+    padding-right: 9px;
+}
+
+.tw1 {
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.in1 {
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.bk-nav {
+    background-color: rgb(61, 61, 80);
+}
+
+.footer {
+    background-color: rgb(62, 62, 95);
+}
+
+.border_1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}   
+
+.border_2{
+    border: none;
+}
+
+.hover_li:hover{
+    color:cornflowerblue;
+}
+
+.btn_1:hover{
+    background-color: lightgray;
+    border:solid 1px lightgray;
+    color: black;
+}
+
+.fa-plus {
+    font-size: 6rem;
+}
+
+.plus{
+    display: none;
+    background-color: rgba(55, 133, 133, 0.5);
+    cursor: pointer;
+}
+
+.container-x:hover .plus {
+    display: block;
+    border-radius: 3%;
+    border: 100px; ;
+}
+
+.padd_x{
+    padding: 1em;
 }
